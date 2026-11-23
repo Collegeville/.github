@@ -12,7 +12,7 @@ Short daily puzzles, each a small gym for a skill that AI tools now do quickly, 
 | [CodeFables](https://collegeville.github.io/CodeFables/) | Read short Python snippets, predict what they do, and spot what's wrong. | Live |
 | [ScaleFables](https://collegeville.github.io/ScaleFables/) | How does it grow, and how does it speed up? Build the instinct for how code scales. | Live |
 | [TestFables](https://collegeville.github.io/TestFables/) | When can you trust a green checkmark? What would this test catch, and what would slip through? | Live |
-| UDXFables | Judge user and developer experience, for people and for agents. | In progress |
+| [UDXFables](https://collegeville.github.io/UDXFables/) | Who is it for, and what do they need right now? Judge user and developer experience, for people and for agents. | Live |
 
 More are on the way.
 
