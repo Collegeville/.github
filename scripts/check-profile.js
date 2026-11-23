@@ -22,10 +22,13 @@ function parseCatalog(text) {
   return games;
 }
 
+// A live game must be linked. An in-progress game has no page yet, so its row may name it
+// without a link (`| UDXFables |`), or link it once the page is up.
 function missingFrom(readme, games) {
   return games
     .filter((g) => g.status === 'live' || g.status === 'in-progress')
-    .filter((g) => !readme.includes(`[${g.name}](${g.url.startsWith('/') ? SITE + g.url : g.url})`));
+    .filter((g) => !readme.includes(`[${g.name}](${g.url.startsWith('/') ? SITE + g.url : g.url})`)
+      && !(g.status === 'in-progress' && readme.includes(`| ${g.name} |`)));
 }
 
 async function main() {
@@ -36,7 +39,7 @@ async function main() {
   const readme = readFileSync(join(__dirname, '..', 'profile', 'README.md'), 'utf8');
   const missing = missingFrom(readme, games);
   if (missing.length) {
-    console.error(`The profile README is missing: ${missing.map((g) => g.name).join(', ')}. Add a row for each to the table in profile/README.md, linking to ${SITE}<url>.`);
+    console.error(`The profile README is missing: ${missing.map((g) => g.name).join(', ')}. Add a row for each to the table in profile/README.md, linking live games to ${SITE}<url>.`);
     process.exit(1);
   }
   console.log(`Profile README lists all ${games.filter((g) => g.status !== 'planned').length} live and in-progress games.`);
