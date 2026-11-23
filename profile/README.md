@@ -9,8 +9,9 @@ Short daily puzzles, each a small gym for a skill that AI tools now do quickly, 
 | Game | What it trains | Status |
 | --- | --- | --- |
 | [DataFables](https://collegeville.github.io/DataFables/) | A daily data-cleaning puzzle: find what's wrong with the table, or decide that nothing is. | Live |
+| [CodeFables](https://collegeville.github.io/CodeFables/) | Read short Python snippets, predict what they do, and spot what's wrong. | Live |
 
-More are on the way: code, scaling, testing, and user and developer experience.
+More are on the way: scaling, testing, and user and developer experience.
 
 - **Catalog:** [collegeville.github.io/games](https://collegeville.github.io/games/)
 - **Shared framework:** [FablesCore](https://github.com/Collegeville/FablesCore), which every game is built on
