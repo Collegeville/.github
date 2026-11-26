@@ -4,7 +4,7 @@ Learning and working as computing advances. Collegeville applies the scientific 
 
 ## The Fables games
 
-Short daily puzzles, each a small gym for a skill that AI tools now do quickly, so we keep the judgment to check their work.
+Short daily puzzles, each a small gym for a skill that matters more as AI changes our work. Most keep sharp the skills AI now does quickly, so we keep the judgment to check its work. UDXFables trains user and developer experience, which grows in importance as AI automates the mechanics of building software.
 
 | Game | What it trains | Status |
 | --- | --- | --- |
@@ -12,7 +12,7 @@ Short daily puzzles, each a small gym for a skill that AI tools now do quickly, 
 | [CodeFables](https://collegeville.github.io/CodeFables/) | Read short Python snippets, predict what they do, and spot what's wrong. | Live |
 | [ScaleFables](https://collegeville.github.io/ScaleFables/) | How does it grow, and how does it speed up? Build the instinct for how code scales. | Live |
 | [TestFables](https://collegeville.github.io/TestFables/) | When can you trust a green checkmark? What would this test catch, and what would slip through? | Live |
-| [UDXFables](https://collegeville.github.io/UDXFables/) | Who is it for, and what do they need right now? Judge user and developer experience, for people and for agents. | Live |
+| [UDXFables](https://collegeville.github.io/UDXFables/) | Who is it for, and what do they need right now? User and developer experience for the people and agents who build and use software. | Live |
 
 More are on the way.
 
